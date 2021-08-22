@@ -16,3 +16,6 @@
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
+# Add git helloword -jcywong
+git clone https://github.com/fw876/helloworld.git package/lean/luci-app-ssr-plus
